@@ -1,0 +1,28 @@
+<section class="content">
+  <br />
+  <div class="card">
+    <div class="card-header">
+      <h3 class="card-title">{{'dashboard.itemsales' | translate}} </h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+
+      <div class="card-body" style="display: flex; justify-content: center;">
+        <table class="table table-bordered table-striped" *ngIf="itemsdetails">
+          <thead>
+            <tr>
+              <th> {{'dashboard.itemcode' | translate}}< </th>
+              <th> {{'dashboard.salecount' | translate}} </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let itemdetail of itemsdetails">
+              <td>{{ itemdetail.itemCode }}</td>
+              <td>{{ itemdetail.saleCount }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

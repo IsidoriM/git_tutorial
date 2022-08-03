@@ -1,0 +1,110 @@
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a class="brand-link" [routerLink]="['/dashboard']">
+
+    <img src="../../../../assets/Content/SiteImg/logo.png" alt="Shanu Cart" class="brand-image" style="opacity: .8">
+    <span class="brand-text font-weight-light">Shanu Cart</span>
+  </a>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/dashboard']">
+            <i class="nav-icon fas fa-th"></i>
+            <p>
+              {{'sidebar.dashboard' | translate}}
+              <span class="right badge badge-danger">{{'sidebar.new' | translate}}</span>
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <!--<a class="nav-link" [routerLink]="['/fetch-data']">-->
+          <a class="nav-link" [routerLink]="['/home']">
+            <i class="nav-icon fas fa-th"></i>
+            <p>
+              {{'sidebar.about' | translate}}
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <!--<a class="nav-link" [routerLink]="['/fetch-data']">-->
+          <a class="nav-link" [routerLink]="['/items']">
+            <i class="nav-icon fas fa-th"></i>
+            <p>
+              {{'sidebar.item' | translate}}
+              <span class="right badge badge-danger">{{'sidebar.new' | translate}}</span>
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              {{'sidebar.prod' | translate}}
+              <i class="fas fa-angle-left right"></i>
+              <span class="badge badge-info right">3</span>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">
+                <i class="far fa-circle nav-icon"></i>
+                <p>{{'sidebar.category' | translate}}</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">
+                <i class="far fa-circle nav-icon"></i>
+                <p>{{'sidebar.additem' | translate}}</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">
+                <i class="far fa-circle nav-icon"></i>
+                <p>{{'sidebar.searchitem' | translate}}</p>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              {{'sidebar.order' | translate}}
+              <i class="fas fa-angle-left right"></i>
+              <span class="badge badge-info right">3</span>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">
+                <i class="far fa-circle nav-icon"></i>
+                <p>{{'sidebar.orddetail' | translate}}</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">
+                <i class="far fa-circle nav-icon"></i>
+                <p>{{'sidebar.adder' | translate}}</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">
+                <i class="far fa-circle nav-icon"></i>
+                <p>{{'sidebar.deliv' | translate}}</p>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </div>
+  <!-- /.sidebar -->
+</aside>

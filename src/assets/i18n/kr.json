@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "Welcome": "안녕하세요! 샤누"
+  },
+  "sidebar": {
+    "dashboard": "대시보드",
+    "new": "새로운",
+    "about": "회사 소개",
+    "item": "아이템 판매",
+    "prod": "제품",
+    "category": "카테고리",
+    "additem": "아이템 추가",
+    "searchitem": "항목 검색",
+    "order": "주문",
+    "orddetail": "주문 세부정보",
+    "adder": "주소록",
+    "deliv": "배송 상황"
+  },
+  "dashboard": {
+    "totorder": "오늘 총 주문",
+    "delitem": "오늘 배송된 상품",
+    "todsales": "오늘의 판매",
+    "todreturn": "오늘 반품된 품목",
+    "itemsales": "이번 월별 품목 판매 수",
+    "itemcode": "아이템 코드",
+    "salecount": "판매 수량"
+  },
+  "footer": {
+    "copyright": "저작권",
+    "shopyourneeds": "언제 어디서나 필요한 물건을 쇼핑하세요"
+  }
+}

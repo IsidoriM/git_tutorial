@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "Welcome": "Welcome! Shanu"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "new": "New",
+    "about": "About Us",
+    "item": "Item Sales",
+    "prod": "Products",
+    "category": "Category",
+    "additem": "Add Item",
+    "searchitem": "Search Item",
+    "order": "Orders",
+    "orddetail": "Order Details",
+    "adder": "Address Book",
+    "deliv": "Delivery Status"
+  },
+  "dashboard": {
+    "totorder": "Todays Total Orders",
+    "delitem": "Todays Delivered Items",
+    "todsales": "Todays Sales",
+    "todreturn": "Todays Returned Items",
+    "itemsales": "Item Sales Count by current Month",
+    "itemcode": "Item Code",
+    "salecount": "Sale Count"
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "shopyourneeds": "Shop your need's from Anywhere Anytime"
+  }
+}
