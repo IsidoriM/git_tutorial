@@ -1,5 +1,5 @@
 {
-  "name": "angular-dynamic-chart",
+  "name": "angular-dynamic-chart 2",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -40,7 +40,7 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
 
-   
+
 
   }
 }
